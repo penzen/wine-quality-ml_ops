@@ -1,0 +1,28 @@
+artifact_path: file:C:/Users/penze/Desktop/ML_devops/MLflow/ML_DEEP/mlruns/1/models/m-f62b678aa31144d8bc7f2b531861b954/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.13.0
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.21.0
+    model_type: keras
+    save_format: tf
+is_signature_from_type_hint: false
+mlflow_version: 3.11.1
+model_id: m-f62b678aa31144d8bc7f2b531861b954
+model_size_bytes: 29005
+model_uuid: m-f62b678aa31144d8bc7f2b531861b954
+prompts: null
+run_id: d0d1757702504c859d95788b54597b1d
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 11]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-04-28 08:02:33.781310'
